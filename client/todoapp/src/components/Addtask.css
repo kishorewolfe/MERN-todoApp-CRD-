@@ -1,0 +1,39 @@
+.addtask{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+.addtask input[type=text]{
+    width: 600px;
+    font-size: 20px;
+}
+.buttonfinal{
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 3px;
+    background: linear-gradient(rgb(44, 132, 214),cyan,pink);
+    width: 35%;
+    height: 35%;
+    animation: buttonfinal 2s linear .2s infinite;
+
+}
+@keyframes buttonfinal {
+    0%{
+        background-position: 10% 0%;
+
+    }
+    25%{
+        background-position: 25% 15%;
+    }
+    50%{
+        background-position: 75% 100%;
+    }
+    100%{
+        background-position: 10% 0%;
+    }
+    
+}
